@@ -1,0 +1,120 @@
+# Build directories
+build/
+out/
+
+# CEF binaries (too large for git)
+cef/
+*.dll
+*.exe
+*.bin
+*.pak
+*.dat
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.obj
+*.pdb
+*.idb
+*.res
+*.tlog
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Qt
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+QtCore*.dll
+QtGui*.dll
+QtWidgets*.dll
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Local configuration
+local_config.cmake
+user_settings.cmake

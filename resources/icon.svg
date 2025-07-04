@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#4285F4" stroke="#1A73E8" stroke-width="2"/>
+  
+  <!-- Browser window frame -->
+  <rect x="12" y="16" width="40" height="32" rx="3" fill="#FFFFFF" stroke="#E8EAED" stroke-width="1"/>
+  
+  <!-- Browser title bar -->
+  <rect x="12" y="16" width="40" height="8" rx="3" fill="#F8F9FA"/>
+  
+  <!-- Browser controls (close, minimize, maximize) -->
+  <circle cx="17" cy="20" r="1.5" fill="#EA4335"/>
+  <circle cx="21" cy="20" r="1.5" fill="#FBBC04"/>
+  <circle cx="25" cy="20" r="1.5" fill="#34A853"/>
+  
+  <!-- Address bar -->
+  <rect x="30" y="18" width="18" height="4" rx="2" fill="#E8EAED"/>
+  
+  <!-- Browser content area -->
+  <rect x="14" y="26" width="36" height="20" fill="#FFFFFF"/>
+  
+  <!-- Content elements (representing a webpage) -->
+  <rect x="16" y="28" width="32" height="3" rx="1" fill="#5F6368"/>
+  <rect x="16" y="33" width="24" height="2" rx="1" fill="#9AA0A6"/>
+  <rect x="16" y="37" width="28" height="2" rx="1" fill="#9AA0A6"/>
+  <rect x="16" y="41" width="20" height="2" rx="1" fill="#9AA0A6"/>
+  
+  <!-- Play button overlay (indicating video/media content) -->
+  <circle cx="32" cy="36" r="6" fill="#EA4335" fill-opacity="0.9"/>
+  <polygon points="29,33 29,39 36,36" fill="#FFFFFF"/>
+  
+  <!-- Chromium logo elements -->
+  <circle cx="45" cy="50" r="8" fill="#4285F4" stroke="#1A73E8" stroke-width="1"/>
+  <circle cx="45" cy="50" r="5" fill="#FFFFFF"/>
+  <circle cx="45" cy="50" r="2" fill="#4285F4"/>
+  
+  <!-- Signal waves (indicating continuous streaming) -->
+  <path d="M 8 32 Q 12 28 16 32 Q 12 36 8 32" stroke="#34A853" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 4 32 Q 10 24 16 32 Q 10 40 4 32" stroke="#34A853" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
