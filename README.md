@@ -6,14 +6,14 @@ A specialized OBS Studio plugin that ensures Twitch alerts continue to function 
 
 ## Features
 
-### 🚀 Core Functionality
+### Core Functionality
 - **Embedded Chromium Browser**: Full CEF (Chromium Embedded Framework) integration
 - **Continuous Rendering**: Keeps Twitch alerts active even when OBS preview is minimized or obscured
 - **Anti-Throttling**: Disabled background timer throttling and renderer backgrounding for reliable alert playback
 - **High-Quality Audio**: Direct audio capture and routing to OBS audio subsystem for alert sounds
 - **Real-time Texture Streaming**: Efficient GPU texture rendering pipeline for smooth alert animations
 
-### 🎛️ User Interface
+### User Interface
 - **Alert URL Input**: Load your Twitch alert dashboard or widget URL
 - **Size Presets**: Common resolutions (1080p, 720p, 4K, etc.) or custom dimensions for your alerts
 - **Volume Control**: Adjustable audio volume with mute functionality for alert sounds
@@ -21,7 +21,7 @@ A specialized OBS Studio plugin that ensures Twitch alerts continue to function 
 - **Force Continuous Playback**: Ensures alerts never pause or get throttled
 - **Manual Reload**: One-click refresh button for reconnecting to alert services
 
-### 🔧 Advanced Settings
+### Advanced Settings
 - **Custom Alert Dimensions**: Precise width and height control (100-7680 x 100-4320) for your alert overlays
 - **Alert Refresh Intervals**: Automatic refresh every 10 seconds to 1 hour to maintain connection
 - **Alert Audio Integration**: Seamless OBS audio source enumeration for alert sounds
